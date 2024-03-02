@@ -8,11 +8,6 @@ header {
     background: rgb(242, 242, 242);
 }
 
-nav {
-    position: sticky;
-    top: 0;
-}
-
 .container {
     max-width: 1200px;
     width: 100%;
@@ -78,18 +73,20 @@ ul {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    border: none;
 }
 
 button:hover {
-    background-color: aqua;
-    color: white;
-    cursor: pointer;
+    background-color: transparent;
+    color: rgb(186, 66, 112);
+    border: 3px solid rgb(186, 66, 112);
+    cursor: grab;
 }
 
 button:active {
     background-color: green;
     color: white;
-    cursor: pointer;
+    cursor: grabbing;
 }
 
 .mein__wrapper {
@@ -118,6 +115,7 @@ h1 {
 
 .protaction {
     background: rgb(27, 38, 47);
+    height: 500px;
 }
 
 .protaction__wrapper {
